@@ -1,0 +1,1 @@
+start /b python3 -m http.server & start /b ngrok http 8000
