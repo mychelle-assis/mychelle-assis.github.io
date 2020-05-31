@@ -15,7 +15,7 @@ body {
 	line-height:1.6em;
 	color: #383838;
 	font-size: 1.4em;
-	background: #ddbea9;
+	background: #ffffff;
 }
 
 a:active {
@@ -911,7 +911,8 @@ background: #32c8de;
 .top-wrapper {
 	margin-bottom:20px;
 }
-.info-blocks {margin-bottom: 15px;/* background: #efefef; */}
+.info-blocks {margin-bottom: 15px; display: flex;}
+.icon-blocks {width: 80px; height: 80px}
 .info-blocks i.icon-info-blocks {float: left;color: #545454;font-size: 40px;min-width: 50px;margin-top: 8px;text-align: center;/* background: #ffffff; */width: 72px;height: 72px;/* padding-top: 21px; */border: 1px solid #ffffff;line-height: 75px;}
 .info-blocks .info-blocks-in {
 padding: 0 10px;
@@ -1035,10 +1036,15 @@ footer .widget .social-network {
 	position:relative;
 }
 
-.team-member h4{
+.team-member {
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
+
+.center-image {
+	margin: auto;
+}
+
 .team-member .deg{
 text-align:center;
 display:block;
@@ -1771,6 +1777,11 @@ padding-top: 3px;
 
 	.logotipo {
 		height: 44px;
+	}
+
+	.team-member {
+	  text-align: center;
+	  margin-bottom: 20px;
 	}
 
 	.search{
