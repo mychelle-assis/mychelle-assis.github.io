@@ -940,6 +940,11 @@ blockquote cite a:visited 				{ color:#555; }
 
 /* --- pullquotes --- */
 
+
+.pergunta {
+	font-weight: bold;
+}
+
 .pullquote-left {
 	display:block;
 	color:#a2a2a2;
