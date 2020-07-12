@@ -964,7 +964,7 @@ blockquote cite a:visited 				{ color:#555; }
 }
 
 /* --- button --- */
-.btn{text-align: center;color: #000000;background: #b7b7a4;border-color: #b7b7a4;width: 120px;border-radius: 0;}
+.btn{text-align: center;color: #000000;background: #ddbea9;border-color: #ddbea9;width: 120px;border-radius: 0;}
 .btn-theme {
 	color: #fff;
 	background: transparent;
@@ -1596,8 +1596,8 @@ article img.pull-right, article .align-right{
 .btn:hover, .btn:focus {
   color: #000;
   text-decoration: none;
-  background: #FF9800;
-  border-color: #FF9800;
+  background: #cb997e;
+  border-color: #cb997e;
 }
 /*  Media queries 
 ============================= */
