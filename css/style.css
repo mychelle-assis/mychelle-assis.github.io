@@ -1647,12 +1647,12 @@ article img.pull-right, article .align-right{
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 background-color: #ddbea9;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: rgb(254, 192, 7);margin-top: 15px;background: #fff1e6;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {margin-top: 15px;background: #fff;}
 .flex-caption h3{
 	font-size:28px;
 }
 .navbar .nav > li > a {
-    color: #ffffff;
+    color: #997b66;
     text-shadow: none;
     border: 1px solid rgba(255, 255, 255, 0) !important;
     padding: 6px 0;
