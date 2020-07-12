@@ -968,7 +968,15 @@ blockquote cite a:visited 				{ color:#555; }
 }
 
 /* --- button --- */
-.btn{text-align: center;color: #000000;background: #ddbea9;border-color: #ddbea9;width: 120px;border-radius: 0;}
+.btn {
+	text-align: center;
+	color: #000000;
+	background: #ddbea9;
+	border-color: #ddbea9;
+	width: 120px;
+	border-radius: 0;
+	padding: 8px 10px;
+}
 .btn-theme {
 	color: #fff;
 	background: transparent;
@@ -998,7 +1006,7 @@ ul.link-list li{
 	padding:2px 0 2px 0;
 	list-style:none;
 }
-footer{background: #000000;}
+footer{background: #8c726c;}
 footer ul.link-list li a{
 	color: #8C8C8C;
 }
@@ -1779,6 +1787,32 @@ padding-top: 3px;
 }
 
 @media (max-width: 480px) {
+
+	h2 {
+		margin: 10px 0px 0px 0px;
+		font-size: 22px;
+	}
+
+	section.section-padding.gray-bg {
+    	background: #ffffff;
+    	padding: 30px 0px;
+    	color: #888888;
+	}
+
+	#about-more {
+		width: 100px;
+    	display: table;
+    	margin: 0 auto;
+	}
+
+	.about-text .btn {
+		margin: 30px 0;
+	}
+
+	.row, .row-fluid {
+    	margin-bottom: 10px;
+	}
+
 	.bottom-article a.pull-right {
 		float:left;
 		margin-top:20px;
