@@ -112,6 +112,7 @@ img.img-polaroid {
 }
 .navbar-default .navbar-toggle {
     border-color: #ddd;
+    background-color: #ddbea9;
     margin-top: 10px;
 }
 /*  Header
@@ -1641,12 +1642,12 @@ article img.pull-right, article .align-right{
 }
 
 @media (max-width: 767px) {
-.navbar-default .navbar-collapse{border-color: none;/* background: #05142b; */}
+.navbar-default .navbar-collapse{border-color: none;}
 .navbar-default .navbar-toggle .icon-bar {background-color: #ffffff;border-radius: 0;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background-color: rgba(221, 221, 221, 0);
+background-color: #ddbea9;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: rgb(254, 192, 7);margin-top: 15px;background: #3e3e3e;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: rgb(254, 192, 7);margin-top: 15px;background: #fff1e6;}
 .flex-caption h3{
 	font-size:28px;
 }
