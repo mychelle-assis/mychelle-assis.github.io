@@ -253,9 +253,13 @@ background: #ffffff;
 	
 padding: 35px 0;
 }
+.dropdown-menu li a {
+    color: #997b66 !important;
+}
+
 .dropdown-menu li a:hover {
-    color: #cb997e !important;
-    background: #b7b7a4 !important;
+    color: #997b66 !important;
+    background: #eddcd2 !important;
 }
 
 header .nav .caret {
