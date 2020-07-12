@@ -254,8 +254,8 @@ background: #ffffff;
 padding: 35px 0;
 }
 .dropdown-menu li a:hover {
-    color: #fff !important;
-    background: #1c1c1c !important;
+    color: #cb997e !important;
+    background: #b7b7a4 !important;
 }
 
 header .nav .caret {
