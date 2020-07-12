@@ -1644,7 +1644,7 @@ article img.pull-right, article .align-right{
 .navbar-default .navbar-collapse{border-color: none;}
 .navbar-default .navbar-toggle .icon-bar {background-color: #ddbea9;border-radius: 0;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background-color: #ddbea9;
+background-color: transparent;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {margin-top: 15px;background: #fff;}
 .flex-caption h3{
