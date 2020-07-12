@@ -567,7 +567,7 @@ section.hero-text h1{
 
 #content {
 	position:relative;
-	background: #ddbea9;
+	background: #ffffff;
 	padding:50px 0 0px 0;
 }
  
@@ -1006,7 +1006,8 @@ ul.link-list li{
 	padding:2px 0 2px 0;
 	list-style:none;
 }
-footer{background: #8c726c;}
+footer{background: #8c726c
+	;}
 footer ul.link-list li a{
 	color: #8C8C8C;
 }
