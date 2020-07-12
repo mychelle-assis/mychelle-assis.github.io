@@ -111,9 +111,8 @@ img.img-polaroid {
 	max-width:100%;
 }
 .navbar-default .navbar-toggle {
-    border-color: #ddd;
-    background-color: #ddbea9;
     margin-top: 10px;
+    border-width: 0px;
 }
 /*  Header
 ==================================== */
@@ -1643,7 +1642,7 @@ article img.pull-right, article .align-right{
 
 @media (max-width: 767px) {
 .navbar-default .navbar-collapse{border-color: none;}
-.navbar-default .navbar-toggle .icon-bar {background-color: #ffffff;border-radius: 0;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #ddbea9;border-radius: 0;}
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 background-color: #ddbea9;
 }
