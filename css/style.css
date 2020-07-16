@@ -923,7 +923,6 @@ background: #32c8de;
 .icon-blocks {width: 80px; height: 80px}
 .info-blocks i.icon-info-blocks {float: left;color: #545454;font-size: 40px;min-width: 50px;margin-top: 8px;text-align: center;/* background: #ffffff; */width: 72px;height: 72px;/* padding-top: 21px; */border: 1px solid #ffffff;line-height: 75px;}
 .info-blocks .info-blocks-in {
-	text-align: justify;
 	padding: 0 10px;
 	overflow: hidden;
 }
