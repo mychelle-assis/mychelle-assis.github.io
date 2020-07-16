@@ -13,7 +13,7 @@ body {
 	font-family:'Open Sans', Arial, sans-serif;
 	font-weight:300;
 	line-height:1.6em;
-	color: #383838;
+	color: #545454;
 	font-size: 1.4em;
 	background: #ffffff;
 }
@@ -29,13 +29,13 @@ a:active {
 h1,h2{
 	font-weight: 600;
 	line-height: 1.4em;
-	color: #414141;
+	color: #545454;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
 h3, h4, h5, h6 {
 	line-height:1.1em;
-	color: #080808;
+	color: #545454;
 	margin-bottom: 20px;
 }
 input, button, select, textarea { 
@@ -532,6 +532,10 @@ section.hero-text h1{
 	color: #fff;
 }
 
+.card-content {
+	text-align: justify;
+}
+
 /* Clients
 ------------------------------------ */
 #clients {
@@ -919,8 +923,9 @@ background: #32c8de;
 .icon-blocks {width: 80px; height: 80px}
 .info-blocks i.icon-info-blocks {float: left;color: #545454;font-size: 40px;min-width: 50px;margin-top: 8px;text-align: center;/* background: #ffffff; */width: 72px;height: 72px;/* padding-top: 21px; */border: 1px solid #ffffff;line-height: 75px;}
 .info-blocks .info-blocks-in {
-padding: 0 10px;
-overflow: hidden;
+	text-align: justify;
+	padding: 0 10px;
+	overflow: hidden;
 }
 .info-blocks .info-blocks-in h3 {color: #3b3b3b;font-size: 16px;line-height: 28px;margin:0px;margin-bottom: 8px;font-weight: bold;text-transform: uppercase;}
 .info-blocks .info-blocks-in p {font-size: 14px;}
