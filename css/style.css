@@ -1021,8 +1021,9 @@ ul.link-list li{
 	padding:2px 0 2px 0;
 	list-style:none;
 }
-footer{background: #c0a89e
-	;}
+footer{ 
+	background: #c0a89e;
+}
 footer ul.link-list li a{
 	color: #8C8C8C;
 }
@@ -1799,6 +1800,13 @@ padding-top: 3px;
 }
 
 @media (max-width: 480px) {
+
+	.copyright {
+		margin: auto;
+		text-align:left;
+		font-size:10px;
+	}
+
 
 	h2 {
 		margin: 10px 0px 0px 0px;
