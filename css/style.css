@@ -242,11 +242,10 @@ header  .navbar-nav > li > a {
 }
 
 .services{
-	
-background: #ddbea9 !important;
-	
-padding: 60px 0 !important;
+	background: #ddbea9 !important;
+	padding: 35px 0;
 }
+
 .dishes{
 	
 background: #ffffff;
@@ -583,7 +582,6 @@ section.hero-text h1{
 #content {
 	position:relative;
 	background: #ffffff;
-	padding:50px 0 0px 0;
 }
  
 .cta-text {
