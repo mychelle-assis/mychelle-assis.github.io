@@ -165,14 +165,10 @@ header .navbar {
 	display: block;
 }
 .navbar-brand {
-    color: #222;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1em;
-    letter-spacing: -1px;
-    margin-top: 6px;
-    padding: 0 0 0 15px;
+	background-image: url(../img/logotipo2.png);
+	background-size: cover;
+	width: 159px;
+	height: 59px;
 }
 .navbar-default .navbar-brand{color: #ffffff;font-size: 24px;text-transform: uppercase;}
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{color: #fff;}
@@ -185,9 +181,8 @@ header .navbar {min-height: 70px;padding: 18px 0;background: #080808;}
     background: #f0efeb;
     /* position: absolute; */
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 header .nav li a:hover,
@@ -1153,13 +1148,6 @@ ul.team-detail li ul.social-network li i {
 	margin:0;
 }
 
- .navbar-brand i {
-    color: #FFC107;
-    font-size: 26px;
-    margin-right: 5px;
-    position: relative;
-    top: 4px;
-}
 .pricing-title{
 	background:#fff;
 	text-align:center;
@@ -1680,10 +1668,6 @@ background-color: transparent;
     padding-right: 0;
     padding-left: 0;
   }
-	.navbar-brand {
-		margin-top: 6px;
-		border-bottom: none;
-	}
 	.navbar-header {
 		/* margin-top: 20px; */
 		border-bottom: none;
