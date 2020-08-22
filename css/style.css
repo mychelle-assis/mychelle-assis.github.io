@@ -551,6 +551,10 @@ section.hero-text h1{
 	text-align: justify;
 }
 
+.card-content-doencas {
+	min-height: 245px;
+}
+
 /* Clients
 ------------------------------------ */
 #clients {
