@@ -42,6 +42,14 @@ h3, h4, h5, h6 {
 input, button, select, textarea { 
     border-radius: 0px !important;
 }
+
+.slide-image-desktop {
+	display: block;
+}
+.slide-image-mobile {
+	display: none;
+}
+
 .timetable{background: #2ab975;padding: 5px 23px;}
 .timetable hr{
 	color:#fff;
@@ -1787,6 +1795,13 @@ padding-top: 3px;
 
 @media (max-width: 480px) {
 
+	.slide-image-desktop {
+		display: none;
+	}
+	.slide-image-mobile {
+		display: block;
+	}
+
 	.copyright {
 		margin: auto;
 		padding-top: 20px;
@@ -1840,19 +1855,18 @@ padding-top: 3px;
 
 	.flexslider .flex-caption {
 		margin: 0;
+		width: 100%;
 	}
 
 	.flex-caption h3{
-		font-size:16px;
+		font-size:18px;
 	}
 
 	.flex-caption p{
 		margin:0;
-		font-size: 10px;
-		line-height: 10px;
+		font-size: 15px;
+		line-height: 15px;
 	}
-
-
 
 	.cta-text {
 		margin:0 auto;
