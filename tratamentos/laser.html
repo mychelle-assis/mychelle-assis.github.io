@@ -23,8 +23,8 @@
 <body>
 <div id="wrapper" class="home-page"> 
 	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
+	<header id="main-navbar">
+        <div class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -32,25 +32,45 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img class="logotipo" src="img/logotipo2.png" alt="" />
+                    <a class="navbar-brand" href="../index.html">
                     </a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a class="waves-effect waves-dark" href="../index.html">Home</a></li> 
-						 <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">Sobre<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="waves-effect waves-dark" href="../about.html">Dra Mychelle Assis</a></li>
-                            <li><a class="waves-effect waves-dark" href="#">Cirurgia Vascular</a></li>
-                            <li><a class="waves-effect waves-dark" href="#">Convênios</a></li> 
-                        </ul>
-                    </li> 
-						<li><a class="waves-effect waves-dark" href="../services.html">Doenças Vasculares</a></li>
-                        <li><a class="waves-effect waves-dark" href="#section_blog">Blog</a></li>
-                        <li><a class="waves-effect waves-dark" href="../pricing.html">Diagnósticos e Tratamentos</a></li>
-                        <li><a class="waves-effect waves-dark" href="../contact.html">Contato</a></li>
+                        <li ><a class="waves-effect waves-dark" href="../index.html">Home</a></li> 
+						<li class="dropdown">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">Sobre<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="waves-effect waves-dark" href="../sobre.html">Dra Mychelle Assis</a></li>
+                                <li><a class="waves-effect waves-dark" href="../sobre.html#cirurgia-vascular">Cirurgia Vascular</a></li>
+                                <li><a class="waves-effect waves-dark" href="../sobre.html#convenios">Convênios</a></li> 
+                            </ul>
+                        </li> 
+                        <li class="dropdown active">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle waves-effect waves-dark">Diagnósticos e Tratamentos<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="waves-effect waves-dark" href="../tratamentos/doppler.html">Doppler Vascular</a></li>
+                                <li><a class="waves-effect waves-dark" href="../tratamentos/escleroterapialiquida.html">Escleroterapia Líquida</a></li>
+                                <li><a class="waves-effect waves-dark" href="../tratamentos/espuma.html">Escleroterapia com Espuma</a></li> 
+                                <li><a class="waves-effect waves-dark" href="../tratamentos/laser.html">Laser Transdérmico</a></li> 
+                                <li><a class="waves-effect waves-dark" href="../tratamentos/cirurgia.html">Cirurgia</a></li> 
+                                <li><a class="waves-effect waves-dark" href="../tratamentos/tratamentoclinico.html">Tratamentos Clínicos</a></li> 
+                            </ul>
+                        </li>
+						<li><a class="waves-effect waves-dark" href="../doencas-vasculares.html">Doenças Vasculares</a></li>
+                        <li><a class="waves-effect waves-dark" href="../blog.html">Blog</a></li>
+                        <li><a class="waves-effect waves-dark" href="../contato.html">Contato</a></li>
+                        <li style="display: flex; flex-direction: row">
+                            <a style="padding-top: 13px; padding-bottom: 0px; padding-right: 0px" href="https://web.facebook.com/dramychelleassis" target="_blank">
+                            <img style="width: 30px; height: 30px" src="../img/facebook_footer2.svg" />
+                            </a>
+                            <a style="padding-top: 13px; padding-bottom: 0px; padding-left: 10px; padding-right: 0px" href="https://www.instagram.com/dramychelleassis" target="_blank">
+                            <img style="width: 30px; height: 30px" src="../img/instagram_footer.svg" />
+                            </a>
+                            <a style="padding-top: 13px; padding-bottom: 0px; padding-left: 10px; padding-right: 0px" href="https://api.whatsapp.com/send?phone=5534988996081" target="_blank">
+                            <img style="width: 30px; height: 30px" src="../img/whatsapp1.svg" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
