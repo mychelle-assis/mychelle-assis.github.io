@@ -592,6 +592,14 @@ section.hero-text h1{
 	position:relative;
 	background: #ffffff;
 }
+
+#convenios {
+	padding-top: 30px;
+}
+
+.showcase-section {
+	padding-top: 40px;
+}
  
 .cta-text {
 	text-align: center;
