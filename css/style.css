@@ -1585,6 +1585,12 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
+
+img.threatment-image {
+	width:100%;
+}
+
+
  ============================= */
 
 .clear-marginbot{
