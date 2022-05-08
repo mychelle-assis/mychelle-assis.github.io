@@ -1882,10 +1882,18 @@ padding-top: 3px;
 	.flexslider .flex-caption {
 		margin: 0;
 		width: 100%;
+		text-align: right;
 	}
 
 	.flex-caption h3{
 		font-size:18px;
+	}
+
+	.about-text{
+		margin-top: 30px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
 	}
 
 	.flex-caption p{
